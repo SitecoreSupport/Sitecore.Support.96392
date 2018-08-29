@@ -1,17 +1,17 @@
-﻿using Sitecore.Configuration;
-using Sitecore.Events.Hooks;
-using Sitecore.Eventing;
-using Sitecore.Pipelines;
-using Sitecore.Services;
-using Sitecore.Data.Archiving;
-using Sitecore.Diagnostics;
-using Sitecore.Data.Items;
-using System;
-
+﻿
 namespace Sitecore.Support.RestoreLink
 {
-   
-    public class RestoreLinkDatabaseHook : IHook
+  using Sitecore.Configuration;
+  using Sitecore.Events.Hooks;
+  using Sitecore.Eventing;
+  using Sitecore.Pipelines;
+  using Sitecore.Services;
+  using Sitecore.Data.Archiving;
+  using Sitecore.Diagnostics;
+  using Sitecore.Data.Items;
+  using System;
+
+  public class RestoreLinkDatabaseHook : IHook
     {
        
 
